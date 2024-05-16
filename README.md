@@ -14,7 +14,6 @@ read-vrseq-vOAS.pl OAS-data-unit.csv.gz seq-check sample=1000
 - `sample=N` reads a sample of N entries, giving preference to entries with *Redundancy* greater than 1.
 - The output will be a tab-separated file containing amino acid sequence data with the extension `*.OAS.N1000.txt`.
 
-
 2. Compute tryptic peptides, region assignments, and mutations
 
 ```
