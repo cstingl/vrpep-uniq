@@ -3,7 +3,7 @@ Tools for calculating the uniqueness and other characteristics of antibody varia
 The following steps describe the generation of tryptic variable region peptides from antibody sequence data. The tools described here are customized to process data units available from the Observed Antibody Space (<https://opig.stats.ox.ac.uk/webapps/oas/>).[^1][^2]
 
 1. Extraction and checking of amino acid sequence and optional sampling of N entries
-2. 
+
 ```
 read-vrseq-vOAS.pl OAS-data-unit.csv.gz seq-check sample=1000
 ```
